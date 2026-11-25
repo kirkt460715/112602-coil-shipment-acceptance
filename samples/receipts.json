@@ -1,0 +1,36 @@
+[
+  {
+    "action": "yard-count",
+    "desk": "gate",
+    "ref": "m-8",
+    "delayed": true,
+    "evidence": {
+      "loaded": [
+        "A",
+        "B"
+      ],
+      "departed": [
+        "A"
+      ],
+      "remaining_in_yard": [
+        "B"
+      ]
+    }
+  },
+  {
+    "action": "lab-proof",
+    "desk": "lab",
+    "ref": "M1-v2",
+    "delayed": false,
+    "evidence": {
+      "material": [
+        0,
+        120
+      ],
+      "surface": [
+        0,
+        64
+      ]
+    }
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "roll": {
+    "id": "M1",
+    "length_m": 120,
+    "waste": [
+      116,
+      120
+    ]
+  },
+  "pieces": {
+    "A": [
+      0,
+      56
+    ],
+    "B": [
+      56,
+      87
+    ],
+    "C": [
+      87,
+      116
+    ]
+  },
+  "orders": {
+    "buyer-x": {
+      "pieces": [
+        "A",
+        "B"
+      ],
+      "partial": true
+    },
+    "buyer-y": {
+      "pieces": [
+        "B",
+        "C"
+      ],
+      "partial": true
+    }
+  },
+  "certificate": {
+    "rev": 1,
+    "reports": {
+      "material": [
+        0,
+        120
+      ],
+      "surface": [
+        0,
+        87
+      ]
+    }
+  }
+}

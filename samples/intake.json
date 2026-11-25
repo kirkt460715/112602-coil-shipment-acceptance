@@ -1,0 +1,49 @@
+[
+  {
+    "sequence": 1,
+    "at": 12,
+    "source": "warehouse",
+    "facts": {
+      "manifest": "m-8",
+      "loaded": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 15,
+    "source": "lab",
+    "facts": {
+      "rev": 2,
+      "surface": [
+        0,
+        64
+      ]
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 19,
+    "source": "carrier",
+    "facts": {
+      "manifest": "m-8",
+      "actual_left_at": 14,
+      "pieces": [
+        "A"
+      ]
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 23,
+    "source": "buyer-x",
+    "facts": {
+      "signed": [
+        "A"
+      ],
+      "cert_revision": 1
+    }
+  }
+]
