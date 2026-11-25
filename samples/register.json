@@ -49,5 +49,24 @@
         87
       ]
     }
+  },
+  "buyer_terms": {
+    "buyer-x": {
+      "shareable_reports": [
+        "material"
+      ],
+      "needs": [
+        "material",
+        "surface"
+      ]
+    },
+    "buyer-y": {
+      "shareable_reports": [
+        "material"
+      ],
+      "needs": [
+        "material"
+      ]
+    }
   }
 }
